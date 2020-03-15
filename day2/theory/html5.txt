@@ -1,0 +1,11 @@
+Flexbox - дл€ того, чтобы распределить элементы внутри блока
+јтрибуты
+direction - row, column
+wrap - сохран€ют размер и переходит на новую строку
+flow - объедин€ет direction и wrap
+justifycontent - по горизонтали flex-center space-between space-around flex-start flex-end
+alignitems - по вертикали
+stretch - раст€гивает
+aligncontent - все те же атрибуты, что и у justifycontent
+order - приоритет, по дефолту у всех 0
+align-self: flex-start, center, end

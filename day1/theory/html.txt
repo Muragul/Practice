@@ -1,0 +1,7 @@
+<html>
+<head>
+<title> my first page </title>
+</head>
+<body bgcolor = red bakground = "1.jpg" text=blue>
+</body>
+</html>

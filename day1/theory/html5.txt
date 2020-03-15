@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+   <head>
+      <title></title>
+   </head>
+   <body>
+      <div></div>
+   </body>
+</html>
+
+
+<doctype> indicates that we use html5
+<html></html>
+<head></head> loading before body, not displayed on the page; here: titles and styles, meta-tags (for defining type of coding etc); 
+<header><nav></header> header of the page
+<footer><nav></footer> in header and footer we use styles
+<title></title> title of the page
+<body></body>
+<body bgcolor = "color"> attributes of body
+<div></div> universal block tag; elements are displayed in columns in various divs
+
+Line tags
+<a href="link"></a> links go to other page/website
+<div name="anchor"> anchors stay in current page
+<a href = "#anchor"></a> on click: transfer us to a certain div
+(text styling)
+<h1></h1> bold fonts from h1 (big) to h6 (small)
+<big></big>
+<small></small>
+<sub></sub> small font after word 
+<sup></sup> exaple: power
+<frame> frames (we are not going to use them)
+<p></p> new line
+<br> enter
+<img src="1.jpg"/>
+<img width="200"> width, height in pixels
+<hr> horizontal line; has attributes color etc
+<table>
+   <tr> new table row
+      <th></th> table headers displayed with bold font
+   </tr>
+   <tr>
+      <td></td> cells displayed with simple font
+   </tr>
+</table>
+Lists
+<ol> nubered
+   <li></li> element of a list
+</ol>
+<ul> marked
+   <li></li>
+</ul>
+
+CSS
+<head><link rel="stylesheet" type="text/css" href="style.css"> download styles
+id used for only one object
+#style{..} id is created through #
+class for many objects, created through .
+.style{
+color;
+font;
+bgcolor;
+border; borders of element, can be solid, dotted etc;
+margin; indent from block from the outside, margin-left: 5px;
+padding; indent from all sides, if we do not define from wich size
+}
+examples
+<table id="tablestyle">
+<tr class="border">
+#tablestyle{
+border-width: 2px;
+}
+.border{
+border-width: 2px;
+border-style: solid;
+}
+<img id="image">
+#image{
+width: 500px; 50% 
+height: 200px; 20%
+} percent from block
+
+F12 to open def tools
+block is displayed with blue color, indent - red

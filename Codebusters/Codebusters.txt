@@ -1,0 +1,114 @@
+git stash
+git branch
+<branch>==feat/settings
+
+git add .
+git commit -m "comment"
+git pull origin master
+git push origin <branch> 
+
+you are obligated to create a new branch, since you can not pull your changes directly into master
+
+how to create new branch
+git checkout -b BranchName
+how to check current branch
+git branch
+how to check changes
+git status
+
+push your changes in this branch
+git add .
+git add FileName.format
+git commit -m "fix: changes"
+git pull origin master
+git push origin BranchName
+
+how to get changes from git repository
+
+Angular
+how to create new component
+ng g c ComponentName
+how to serve
+ng serve
+
+1. Fixed header/ sticky header and their difference
+2. Tooltip 
+    перемещение - transform
+                              translate()
+    анимации - transition
+3. Text - анимация
+4. Icons - Fontawesome
+
+
+Animation css3
+@keyframes NAME {
+rules
+}
+@keyframes NAME {
+from {}    0% {}
+to{}       100%{}
+}
+
+h1{
+color: blue;
+animation: NAME 2s infinite ease-in-out;
+}
+
+animation-timing-function:
+linear; - равномерно
+ease; - медленно-разгоняется-замедляется
+ease-out; - быстро - замедление
+ease-in; - медленно - ускорение
+ease-in-out; - медленно начинается и заканчивается
+step-start; - steps(1, start) = разбивает анимацию на отрезки, изменения происходят в начале шага 
+step-end; - steps(1, end) = пошаговая анимация, изменения происходят в конце каждого шага 
+steps( кол-во шагов, положение шага) = положение шага
+       jump-start; jump-end; jump-none; jump-both
+
+animation-name: list of animations; 
+none; - отсутствие анимации
+initial; - значение свойства по умолчанию
+inherit; - наследует значение свойства от родительского элемента
+
+animation-duration: s/ms;
+animation-duration: 15s, 30s, 200ms;
+
+animation-iteration-count: количество циклов
+infinite;
+real number;
+
+animation-direction:
+normal; = default
+reverse; = все повторы в обратном направлении
+alternate; = четные повторы в обратном направлении
+alternate-reverse; = нечетные повторы в обратном направлении
+initial;
+inherit;
+количество повторов начинается с 1
+
+animation-play-state
+running = анимация выполняется
+paused = приостановлена
+initial
+inherit
+состояние :hover = останавливает анимацию при наведении курсора мыши на объект
+
+animation-delay
+определяет когда анимация начнется
+s/ms
+
+animation-fill-mode
+состояние элемента до и после воспроизведения анимации
+none; =default
+forwards; = останется как в конце
+backwards; = вернется к начальному кадру
+both; = первый ключевой кадр до начала и последний в конце
+
+
+Лекция JS
+callback
+asinc aavoid
+redyce array
+webassembler
+graphjs
+prototype

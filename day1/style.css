@@ -1,0 +1,22 @@
+.border{
+    color: violet;
+    font-size: 30px;
+    border-style: inset;
+    border-width: 2px; 
+    padding: 5px;
+}
+.text{
+    font-size: 50px;
+    color: aqua;
+}
+.txt{
+    font-size: 30px;
+    color: blueviolet;
+    background-color:white;
+    text-align: center; 
+}
+.text1{
+    color: blueviolet;
+    background-color:white;
+    margin-left: 50px;
+}
